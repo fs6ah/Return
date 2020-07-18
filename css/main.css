@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'LubalinGraphITCTurner-BoldArabic';
+    src: url(../fonts/LubalinGraphITCTurner-BoldArabic.woff) format('woff');
+ }
+body{
+    font-family:'LubalinGraphITCTurner-BoldArabic'!important;
+    background-color:  rgb(34, 34, 34) !important;
+}
+.bodylg{
+    font-family:'LubalinGraphITCTurner-BoldArabic'!important;
+    background-color:  #fff !important;
+}
+input{
+direction: rtl;
+}
+.GoTo {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .GoTo .checkbox {
+    font-weight: 400;
+  }
+  .GoTo .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
